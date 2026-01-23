@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    background: rgb(250, 250, 226);
+    font-family: monospace;
+}
+h1{
+    font-style: bold;
+
+}
+form{
+    background-color: white;
+    padding: 25px;
+    margin: auto;
+    max-width: 65%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.4);
+    display: flex;
+    flex-direction:column;
+    padding: 25px;
+
+}
+input{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: monospace;
+ 
+    border-radius: 4px;
+    margin: none;
+}
+button{
+    background-color: hsl(55, 100%, 67%);
+    color: grey;
+    font-size: 1.4em;
+    border-radius: 5px;
+    margin: 50px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(55, 97%, 76%);
+}
+#macro{
+    font-size: 27px;
+}
+#macro-amt{
+    color: hsl(38, 100%, 59%);
+    font-weight: bold;
+}
+#BMIvalue{
+    font-size: 27px;
+}
+#BMI-amt{
+    color: hsl(38, 100%, 59%);
+    font-weight: bold;
+}
