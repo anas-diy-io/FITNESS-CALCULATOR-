@@ -23,10 +23,23 @@ input{
     text-align: center;
     font-size: 1.5em;
     font-family: monospace;
- 
+    padding: 5px;
     border-radius: 4px;
     margin: none;
 }
+
+select {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: monospace;
+    color :grey;
+    border-radius: 4px;
+    border: 2px solid #000;
+    padding: 5px;
+    background-color: white;
+}
+
+
 button{
     background-color: hsl(55, 100%, 67%);
     color: grey;
@@ -49,6 +62,12 @@ button:hover{
     font-size: 27px;
 }
 #BMI-amt{
+    color: hsl(38, 100%, 59%);
+    font-weight: bold;
+}#calorie{
+    font-size: 27px;
+}
+#calorie-amt{
     color: hsl(38, 100%, 59%);
     font-weight: bold;
 }
