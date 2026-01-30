@@ -61,8 +61,8 @@ function calculate() {
   const BMI = weight / (height * height);
   const protien = weight * 1.85 ;
 
-  BMIvalue.textContent = BMI.toFixed(1);
-  macro.textContent = protien.toFixed(2);
-  calorie.textContent = calories.toFixed(0);
+  BMIvalue.textContent = BMI.toFixed(2)+" BMI";
+  macro.textContent = protien.toFixed(1)+"g";
+  calorie.textContent = calories.toFixed(0)+"kcal";
 }
                                              

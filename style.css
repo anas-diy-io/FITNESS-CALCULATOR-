@@ -19,6 +19,10 @@ form{
     padding: 25px;
 
 }
+label{
+    font-family: monospace;
+    font-size: 1.5em;
+}
 input{
     text-align: center;
     font-size: 1.5em;
