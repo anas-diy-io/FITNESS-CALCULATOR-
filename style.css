@@ -51,27 +51,43 @@ button{
     border-radius: 5px;
     margin: 50px;
     cursor: pointer;
+    font-family: monospace;
 }
 button:hover{
     background-color: hsl(55, 97%, 76%);
 }
 #macro{
     font-size: 27px;
+    font-family: monospace;
 }
 #macro-amt{
     color: hsl(38, 100%, 59%);
     font-weight: bold;
+    font-family: monospace;
 }
 #BMIvalue{
     font-size: 27px;
+    font-family: monospace;
 }
 #BMI-amt{
     color: hsl(38, 100%, 59%);
     font-weight: bold;
+    font-family: monospace;
 }#calorie{
     font-size: 27px;
+    font-family: monospace;
 }
 #calorie-amt{
     color: hsl(38, 100%, 59%);
     font-weight: bold;
+    font-family: monospace;
+}
+#category{
+    font-family: monospace;
+    font-size: 27px;
+}
+#level{
+    color: hsl(38, 100%, 59%);
+    font-weight: bold;
+    font-family: monospace;
 }

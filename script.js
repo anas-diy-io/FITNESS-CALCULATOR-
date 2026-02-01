@@ -60,9 +60,26 @@ function calculate() {
 
   const BMI = weight / (height * height);
   const protien = weight * 1.85 ;
+  let condion;
+  if(BMI <18.5){
+    condion = "Underweight";
+  }
+  else if(BMI <25){
+    condion = "Ideal weight";
+  }
+  else if(BMI <30){
+    condion = "Overweight";
+  }
+  else if(BMI <35){
+    condion = "Obese";
+  }
+  else if(BMI >35){
+    condion = "Extremely Obese";
+  }
 
   BMIvalue.textContent = BMI.toFixed(2)+" BMI";
   macro.textContent = protien.toFixed(1)+"g";
   calorie.textContent = calories.toFixed(0)+"kcal";
+  category.textContent = condion;
 }
                                              
